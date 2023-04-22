@@ -1,4 +1,4 @@
-## Valetudo nightly (2023-04-21T02:49:11.338Z)
+## Valetudo nightly (2023-04-22T02:47:59.000Z)
 ### Breaking Changes
 
 - **mqtt**: Rename status detail to status flag for consistency [`eb67fca`](https://github.com/valet-dev/valetudo/commit/eb67fcadeda79e9b3717e546eb793891dc6e9768)
@@ -28,6 +28,7 @@
 
 ### Features
 
+- **vendor.roborock**: Add support for the S7 Pro Ultra [`87636ba`](https://github.com/valet-dev/valetudo/commit/87636ba921eb65b4bffde2125dc70cc75ee19b70)
 - **ui**: Improve UX when configuring MQTT or NTP hosts [`cf982c0`](https://github.com/valet-dev/valetudo/commit/cf982c0e626d4996227d0e291207f90c8ce73528)
 - **vendor.dreame**: R2240 support [`aaa01bf`](https://github.com/valet-dev/valetudo/commit/aaa01bf3c0873e24c1c823b167b907d641b036f3)
 - **updater**: Visualize download progress [`992c38f`](https://github.com/valet-dev/valetudo/commit/992c38f63040b09a74d8a29a52d6aba268538d60)
@@ -421,6 +422,7 @@
 
 ### Fixes
 
+- **vendor.dreame**: Add DreameCarpetModeControlCapability to DreameMopValetudoRobots such as the W10 [`c39cd7e`](https://github.com/valet-dev/valetudo/commit/c39cd7e2a676ff378390f39eeb9abc9fac3a78f8)
 - **vendor.dreame**: Fix detergent consumable reset [`8636e0c`](https://github.com/valet-dev/valetudo/commit/8636e0ca201c99e3d55d1e4863425148803ee826)
 - **vendor.viomi**: Fix parser freezing when encountering unexpected segment name data [`fc73347`](https://github.com/valet-dev/valetudo/commit/fc73347177709d7b0ff3ad02c3b2e7ae3c024c49)
 - **ui**: Hide clear button if there is no GoTo target [`7c6c0a9`](https://github.com/valet-dev/valetudo/commit/7c6c0a959c327c9558a2cd1ed078e45747ca572f)
@@ -993,6 +995,7 @@
 
 ### Chores
 
+- **vendor.dreame**: Wording [`321ff10`](https://github.com/valet-dev/valetudo/commit/321ff10b73143ea0895352fc249ddc7818c5a84b)
 - **release**: 2023.03.0 [`fc6b905`](https://github.com/valet-dev/valetudo/commit/fc6b905a99f889473f375eb011bd2d3d2b2599ea)
 - Un-bump backend axios version [`b4c9e32`](https://github.com/valet-dev/valetudo/commit/b4c9e3218711c069334d9d3a3fcbf71b4ae8e249)
 - Bump dependencies [`979a8b6`](https://github.com/valet-dev/valetudo/commit/979a8b6a479bf6b29dbecc959d1ba988d1b2878e)
