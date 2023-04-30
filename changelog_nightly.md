@@ -1,4 +1,4 @@
-## Valetudo nightly (2023-04-29T02:47:59.336Z)
+## Valetudo nightly (2023-04-30T02:47:10.911Z)
 ### Breaking Changes
 
 - **mqtt**: Rename status detail to status flag for consistency [`eb67fca`](https://github.com/valet-dev/valetudo/commit/eb67fcadeda79e9b3717e546eb793891dc6e9768)
